@@ -18,12 +18,12 @@
 #include <UniversalTelegramBot.h>   
 #include <ArduinoJson.h>
 
-const char* ssid = "n e t w o r k";
-const char* password = "Gabiefa162400";
+const char* ssid = "wifi;
+const char* password = "senha123";
 
-#define BOTtoken "5887014094:AAEJS20I5NcV5khJbLBxTKgvd01G5H6EM3g" 
+#define BOTtoken "TOKEN***************" 
 
-#define CHAT_ID "895955330"
+#define CHAT_ID "ID*************"
 
 #ifdef ESP8266
   X509List cert(TELEGRAM_CERTIFICATE_ROOT);
